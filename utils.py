@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from tqdm import tqdm
 from torchsummary import summary
+import matplotlib.pyplot as plt
 
 def train(model, device, train_loader, optimizer, criterion):
   model.train()
